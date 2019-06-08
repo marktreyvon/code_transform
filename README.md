@@ -1,10 +1,21 @@
-# 一个简单的编码转换工具
+# 一个简陋的编码转换工具
 
-预计实现：
+##已实现：
 
-- URL编解码、HTML编解码；
-- MD5查询，base64编解码；
+- URL编解码、HTML实体编解码；
+- base64编解码；
 - 16进制编解码，ascii码查询转换；
-- 字节码，UTF-8，GBK编解码；
+- 字节码，GBK，GB2312编解码；
+### Usage：python main.py
 
-Usage：python main.py
+### 示例图：
+![https://github.com/marktreyvon/code_transform/blob/master/img/eg1.png](https://github.com/marktreyvon/code_transform/blob/master/img/eg1.png)
+##预计实现：    
+    对应字符高亮
+    大量文本点击放大对比
+    加密查询
+    初始化时从粘贴板导入
+    复制到粘贴板
+---
+##已知bug：
+    太多懒得改了，要不交issue要不自己改吧。
